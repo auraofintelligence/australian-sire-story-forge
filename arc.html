@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120c1f">
+  <link rel="icon" href="assets/icons/story-forge.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <title>Book Plan | Australian Sire Story Forge</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20260818-5">
+</head>
+<body data-page="arc">
+  <a class="skip-link" href="#main">Skip to the Book Plan</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero shell arc-hero">
+      <p class="eyebrow">Step 3 · Book plan</p>
+      <h1>Turn one large book<br><em>into manageable pieces.</em></h1>
+      <p>Choose a rough size, decide whether large acts or parts would help, then divide the book into chapters and scenes. The figures are working data, not rules.</p>
+    </section>
+
+    <nav class="shell core-progress" aria-label="Main book-planning sequence">
+      <a href="forge.html"><span>1</span> Story choices</a>
+      <a href="characters.html"><span>2</span> Characters</a>
+      <a href="#book-size" aria-current="step"><span>3</span> Book plan</a>
+    </nav>
+
+    <section class="shell book-plan-builder" aria-label="Book size, acts, chapters, scenes and story-pattern questions">
+      <article class="book-plan-step" id="book-size">
+        <div class="book-plan-step-number">Book Plan 1 of 5</div>
+        <div class="book-plan-step-body">
+          <p class="eyebrow">Publisher data</p>
+          <h2>What size are you exploring?</h2>
+          <p>These word bands come from your supplied market research and 2023 author planning sheet. Select one to load a starting pattern, or enter your own numbers below.</p>
+          <div class="size-preset-grid" data-size-preset-grid></div>
+          <div class="writing-number-grid book-size-number-grid">
+            <label>
+              <span>Rough total word target</span>
+              <input type="number" min="1" max="500000" step="500" inputmode="numeric" data-target-word-count placeholder="For example, 85000">
+            </label>
+            <label>
+              <span>Words counted as one estimated page</span>
+              <input type="number" min="100" max="1000" step="5" inputmode="numeric" data-words-per-page>
+            </label>
+          </div>
+          <p class="source-caveat">The supplied 55,000-word and 200-page category-romance example works out to about 275 words per page. Printed and ebook pages vary with trim size, type, layout and screen.</p>
+        </div>
+      </article>
+
+      <article class="book-plan-step" id="acts-and-parts">
+        <div class="book-plan-step-number">Book Plan 2 of 5</div>
+        <div class="book-plan-step-body">
+          <p class="eyebrow">Optional large sections</p>
+          <h2>Does this story want acts or parts?</h2>
+          <p>Acts and parts are large sections containing chapters. Choose a starting split, rename every section, change its relative size or leave the book as one continuous chapter plan.</p>
+          <div class="act-plan-controls">
+            <label>
+              <span>Starting pattern</span>
+              <select data-act-pattern></select>
+            </label>
+            <label>
+              <span>Number of acts or parts</span>
+              <input type="number" min="1" max="12" step="1" inputmode="numeric" data-act-count placeholder="For example, 3">
+            </label>
+            <label>
+              <span>What do you call one section?</span>
+              <input type="text" maxlength="30" data-act-unit-label placeholder="Act, Part or Movement">
+            </label>
+          </div>
+          <p class="source-caveat" data-act-pattern-note></p>
+          <p class="act-size-explainer">Relative size compares the sections with one another. For example, 25, 50, 25 makes the middle section about twice as large. The numbers do not need to total 100.</p>
+          <div class="act-plan-grid" data-act-plan aria-live="polite"></div>
+        </div>
+      </article>
+
+      <article class="book-plan-step" id="writing-chunks">
+        <div class="book-plan-step-number">Book Plan 3 of 5</div>
+        <div class="book-plan-step-body">
+          <p class="eyebrow">Your working numbers</p>
+          <h2>How many chapters and scenes feel manageable?</h2>
+          <div class="writing-number-grid">
+            <label>
+              <span>How many chapters?</span>
+              <input type="number" min="1" max="300" step="1" inputmode="numeric" data-chapter-count placeholder="For example, 34">
+            </label>
+            <label>
+              <span>How many scenes in most chapters?</span>
+              <input type="number" min="1" max="20" step="1" inputmode="numeric" data-scenes-per-chapter placeholder="For example, 2">
+            </label>
+          </div>
+          <div class="writing-breakdown" data-writing-breakdown aria-live="polite"></div>
+        </div>
+      </article>
+
+      <article class="book-plan-step" id="chapter-pattern-question">
+        <div class="book-plan-step-number">Book Plan 4 of 5</div>
+        <div class="book-plan-step-body">
+          <p class="eyebrow">Place the pattern</p>
+          <h2>Which pattern should arrange the turning points?</h2>
+          <div class="arc-control-panel">
+            <label>
+              <span>Main story shape</span>
+              <select data-arc-structure></select>
+            </label>
+            <label>
+              <span>How often might private intimacy change the story?</span>
+              <select data-gap-cadence></select>
+            </label>
+            <button class="button button-primary" type="button" data-generate-arc>Build this chapter pattern</button>
+          </div>
+          <p class="pattern-status" data-pattern-status></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="shell arc-summary" data-arc-summary></section>
+
+    <section class="shell arc-workspace" id="chapter-plan" data-arc-workspace>
+      <div class="arc-main">
+        <div class="arc-heading">
+          <div>
+            <p class="eyebrow">Book Plan 5 of 5 · Book map and export</p>
+            <h2 data-arc-title>Your working chapter plan</h2>
+          </div>
+          <p>Acts or parts sit above their chapters. Each chapter receives pattern positions, placed ingredients and a blank summary for your own answer. Private adult scenes remain blank markers.</p>
+        </div>
+        <div class="chapter-list" data-chapter-list></div>
+      </div>
+
+      <aside class="arc-sidebar">
+        <section class="validation-card" aria-labelledby="validation-title">
+          <div class="brief-topline"><span class="live-pip"></span><span>Things to check</span></div>
+          <h2 id="validation-title">What still needs attention</h2>
+          <div data-validation-results></div>
+        </section>
+
+        <section class="archive-card" aria-labelledby="archive-title">
+          <p class="eyebrow">Earlier versions</p>
+          <h2 id="archive-title">Saved chapter plans</h2>
+          <p>Rebuilding keeps up to three earlier chapter plans. Restore one here or download it as a separate backup.</p>
+          <div data-arc-archives aria-live="polite"></div>
+        </section>
+
+        <section class="export-card" aria-labelledby="export-title">
+          <p class="eyebrow">Take it with you</p>
+          <h2 id="export-title">Download your plan</h2>
+          <p>The full working version includes everything saved in the planner, including private notes and intimacy planning. The version for sharing leaves those details out and keeps only a numbered marker where a private scene occurs.</p>
+          <div class="export-actions">
+            <button class="button button-secondary" type="button" data-export-full>Download full working version</button>
+            <button class="button button-quiet" type="button" data-export-safe>Download version for sharing</button>
+            <button class="button button-quiet" type="button" data-export-json>Download editable backup</button>
+            <label class="button button-quiet file-button">Restore from a backup<input type="file" accept="application/json,.json" data-import-json></label>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <nav class="shell sequence-nav" aria-label="Main Story Forge sequence">
+      <a class="button button-quiet" href="characters.html">&larr; Back to Characters</a>
+      <a class="button button-secondary" href="council.html">Optional: compare story patterns</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/story-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

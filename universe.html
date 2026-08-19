@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Map stories that happen one after another or overlap across the Australian Sire universe.">
+  <meta name="theme-color" content="#120c1f">
+  <link rel="icon" href="assets/icons/story-forge.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <title>Universe Studio | Australian Sire</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20260818-5">
+</head>
+<body data-page="universe">
+  <a class="skip-link" href="#main">Skip to the Universe Studio</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero shell universe-hero">
+      <p class="eyebrow">Optional workspace · Connected Stories</p>
+      <h1>Many journeys.<br><em>One living possibility space.</em></h1>
+      <p>Gather possibilities, play with them until patterns emerge, then save the ones that may become novels, short stories, films, albums or interactive stories. Stories can follow, overlap, meet, echo or hand consequences to one another. Travel is the large engine. Crystal City is one recurring anchor and horizon among many. Hidden civilisations and their adult emissaries can emerge differently across separate journeys, with no single story owning the complete explanation.</p>
+    </section>
+
+    <section class="shell universe-overview" aria-labelledby="universe-overview-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Shared field</p><h2 id="universe-overview-title">What is gathering in this universe?</h2></div>
+        <p>These are working observations. They can orient the possibility space without forcing any story to carry a particular theme.</p>
+      </div>
+      <div class="universe-overview-fields" data-universe-overview></div>
+    </section>
+
+    <section class="shell universe-map-section" aria-labelledby="universe-map-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Story map</p><h2 id="universe-map-title">Stories that follow, overlap and meet.</h2></div>
+        <div class="universe-actions">
+          <button class="button button-quiet button-small" type="button" data-copy-universe-safe>Copy map for sharing</button>
+          <button class="button button-secondary button-small" type="button" data-copy-universe-private>Copy full working map</button>
+          <button class="button button-primary" type="button" data-add-narrative>Add a story</button>
+        </div>
+      </div>
+      <div class="universe-river" data-universe-map></div>
+    </section>
+
+    <section class="shell universe-emergence-section" aria-labelledby="universe-emergence-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Repeated ideas</p><h2 id="universe-emergence-title">Notice what keeps returning.</h2></div>
+        <p>The planner notices shared characters, outside problems and favourite story ingredients across saved combinations. You decide whether a return is meaningful, accidental or ready to change.</p>
+      </div>
+      <div data-universe-emergence></div>
+    </section>
+
+    <section class="shell universe-strands-section" aria-labelledby="universe-strands-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Individual stories</p><h2 id="universe-strands-title">Give each journey its own centre.</h2></div>
+        <p>Each story can choose its own main character, supporting characters, route and relationship to Aura Operating Zeitgeist, known as Aura O.Z., or Crystal City. Save the current Story Choices combination when it becomes interesting, remove it later or make another version. There is no app-set story limit.</p>
+      </div>
+      <div class="universe-strands" data-universe-narratives></div>
+    </section>
+
+    <section class="shell universe-connections-section" aria-labelledby="universe-connections-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Connections</p><h2 id="universe-connections-title">Name how one story touches another.</h2></div>
+        <p>A connection can establish sequence without pretending the whole universe runs in one straight line.</p>
+      </div>
+      <div data-universe-connection-builder></div>
+      <div class="universe-connections" data-universe-connections></div>
+    </section>
+
+    <nav class="shell sequence-nav" aria-label="Optional workspace links">
+      <a class="button button-primary" href="forge.html">Return to Story Choices</a>
+      <a class="button button-quiet" href="riff.html">Open the optional Idea Workshop</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/story-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

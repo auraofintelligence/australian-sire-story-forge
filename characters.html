@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Build character backgrounds, writing details, relationships and facts that need to stay consistent in the Australian Sire story world.">
+  <meta name="theme-color" content="#120c1f">
+  <link rel="icon" href="assets/icons/story-forge.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <title>Character Studio | Australian Sire</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20260818-5">
+</head>
+<body data-page="characters">
+  <a class="skip-link" href="#main">Skip to the Character Studio</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero shell character-hero">
+      <p class="eyebrow">Step 2 · Characters</p>
+      <h1>People before placeholders.<br><em>Give the writing someone to recognise.</em></h1>
+      <p>Add enough to write each character clearly, then leave whatever should remain discoverable. The roster has no app-set character limit.</p>
+    </section>
+
+    <nav class="shell core-progress" aria-label="Main book-planning sequence">
+      <a href="forge.html"><span>1</span> Story choices</a>
+      <a href="characters.html" aria-current="step"><span>2</span> Characters</a>
+      <a href="arc.html#book-size"><span>3</span> Book plan</a>
+    </nav>
+
+    <section class="shell character-toolbar" aria-label="Character roster controls">
+      <label class="search-field">Search the roster
+        <input type="search" data-character-search placeholder="Name, role, identity or function">
+      </label>
+      <label>Start from a character type
+        <select data-character-seed></select>
+      </label>
+      <button class="button button-primary" type="button" data-add-character>Add character</button>
+      <div class="character-count"><strong data-character-count>1</strong><span>characters saved locally</span></div>
+    </section>
+
+    <section class="shell character-studio" aria-label="Character builder">
+      <aside class="character-roster" aria-label="Character roster">
+        <div class="character-roster-heading">
+          <p class="eyebrow">Current roster</p>
+          <small>Select a character to shape their profile.</small>
+        </div>
+        <div class="character-list" data-character-list></div>
+      </aside>
+      <article class="character-editor" data-character-editor></article>
+    </section>
+
+    <section class="shell idea-map-section" aria-labelledby="idea-map-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Aura LifeLogging idea map</p>
+          <h2 id="idea-map-title">Separate question groups, each with its own way in.</h2>
+        </div>
+        <p>Open whichever group helps. These are separate ways of thinking, not spreadsheet columns, steps or a required order.</p>
+      </div>
+      <div class="idea-map-groups" data-idea-map-groups></div>
+    </section>
+
+    <nav class="shell sequence-nav" aria-label="Story Forge sequence">
+      <a class="button button-quiet" href="forge.html">← Back to Story Choices</a>
+      <a class="button button-primary" href="arc.html#book-size">Set the book size and build chapters →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/story-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

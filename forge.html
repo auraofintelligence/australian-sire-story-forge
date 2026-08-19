@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120c1f">
+  <link rel="icon" href="assets/icons/story-forge.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <title>Story Forge | Australian Sire</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20260818-5">
+</head>
+<body data-page="forge">
+  <a class="skip-link" href="#main">Skip to the story forge</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero shell forge-hero">
+      <p class="eyebrow">Step 1 · Story choices</p>
+      <h1>Choose the current.<br><em>Keep what sparks.</em></h1>
+      <p>Start with the things you already love, then use the other seven steps as optional ways to organise and extend them. Choose as many ideas as you like. Your story brief updates as you go.</p>
+    </section>
+
+    <nav class="shell core-progress" aria-label="Main book-planning sequence">
+      <a href="forge.html" aria-current="step"><span>1</span> Story choices</a>
+      <a href="characters.html"><span>2</span> Characters</a>
+      <a href="arc.html#book-size"><span>3</span> Book plan</a>
+    </nav>
+
+    <section class="shell project-bar" aria-label="Current story project">
+      <label class="project-title-field">
+        <span>Working title</span>
+        <input type="text" data-project-field="title" maxlength="100" value="Untitled Australian Sire story">
+      </label>
+      <div class="identity-lock" title="These are two names for the same main character">
+        <span aria-hidden="true">◆</span>
+        <div><small>Two names, one man</small><strong>Tiggy Bestmann = Australian Sire</strong></div>
+      </div>
+      <div class="project-actions">
+        <button class="button button-quiet button-small" type="button" data-save-project-backup>Save backup</button>
+        <button class="button button-quiet button-small" type="button" data-restore-previous hidden>Restore earlier project</button>
+        <button class="button button-quiet button-small" type="button" data-new-project>Start clean</button>
+      </div>
+    </section>
+
+    <section class="shell forge-layout" aria-label="Story choice builder">
+      <nav class="forge-steps" aria-label="Story choice steps" data-forge-steps></nav>
+
+      <div class="forge-stage" id="current-forge-step">
+        <div class="stage-heading">
+          <div>
+            <p class="eyebrow" data-step-kicker>Question group 1 of 8</p>
+            <h2 data-step-title tabindex="-1">Start with what you love</h2>
+            <p data-step-intro></p>
+          </div>
+          <div class="stage-actions">
+            <button class="button button-quiet button-small" type="button" data-lock-step>Keep these choices during a random addition</button>
+            <button class="button button-quiet button-small" type="button" data-surprise-step>Add one random possibility</button>
+            <a class="button button-secondary button-small brief-jump" href="#live-story-brief">View live brief</a>
+          </div>
+        </div>
+        <div class="choice-grid" data-choice-grid></div>
+        <div class="custom-choice" data-custom-choice></div>
+        <div class="stage-nav">
+          <button class="button button-quiet" type="button" data-prev-step>← Previous question group</button>
+          <button class="button button-primary" type="button" data-next-step>Next question group →</button>
+        </div>
+      </div>
+
+      <aside class="live-brief" id="live-story-brief" aria-labelledby="live-brief-title">
+        <div class="brief-topline">
+          <span class="live-pip"></span>
+          <span>Live story brief</span>
+        </div>
+        <h2 id="live-brief-title" data-brief-title>Your story is taking shape</h2>
+        <div class="brief-project-actions" aria-label="Project actions">
+          <button type="button" data-save-project-backup>Save backup</button>
+          <button type="button" data-restore-previous hidden>Restore earlier</button>
+          <button type="button" data-new-project>Start clean</button>
+        </div>
+        <div class="brief-prose" data-live-brief></div>
+        <div class="brief-copy-actions">
+          <button class="button button-secondary" type="button" data-copy-brief>Copy version for sharing</button>
+          <button class="button button-quiet button-small" type="button" data-copy-private-brief>Copy full working version</button>
+        </div>
+        <p class="microcopy">The full working version includes your private notes. The version for sharing leaves out private notes and intimacy planning. Explicit scenes stay blank.</p>
+        <a class="text-link brief-return" href="#current-forge-step">Back to the current choices ↑</a>
+      </aside>
+    </section>
+
+    <section class="shell forge-finish">
+      <div>
+        <p class="eyebrow">Next suggested step</p>
+        <h2>Build the people who carry these choices.</h2>
+        <p>The Character Builder asks about voice, history, appearance, desire, contradictions, relationships and facts that need to stay consistent.</p>
+        <p><a class="text-link" href="universe.html">Optional: map connected stories</a> · <a class="text-link" href="riff.html">Optional: explore a loose idea</a></p>
+      </div>
+      <a class="button button-primary" href="characters.html">Open Characters →</a>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/story-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

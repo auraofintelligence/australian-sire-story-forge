@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120c1f">
+  <link rel="icon" href="assets/icons/story-forge.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <title>Inspiration Library | Australian Sire Story Forge</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20260818-5">
+</head>
+<body data-page="library">
+  <a class="skip-link" href="#main">Skip to the inspiration library</a>
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-hero shell library-hero">
+      <p class="eyebrow">Source-led inspiration</p>
+      <h1>Your universe,<br><em>distilled into sparks.</em></h1>
+      <p>Browse settings, systems, mysteries, repeated images or ideas, relationships, hidden civilisations and emissary possibilities drawn from the supplied sources and Luke's current universe direction. Add any number to this story. Labels show whether an idea came from a source, was proposed but not built, was newly inspired by a source or was invented for the story.</p>
+    </section>
+
+    <section class="shell library-tools" aria-label="Filter inspiration cards">
+      <label class="search-field"><span class="sr-only">Search inspiration</span><input type="search" placeholder="Search emissaries, geodes, retreats, care, space…" data-library-search></label>
+      <div class="filter-pills" data-library-filters></div>
+    </section>
+
+    <section class="shell library-grid" aria-live="polite" data-library-grid></section>
+
+    <section class="shell source-ledger" aria-labelledby="source-ledger-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Where these ideas came from</p>
+          <h2 id="source-ledger-title">The supplied source list</h2>
+        </div>
+        <p>The app contains distilled planning ingredients, not copies of the full documents or lyrics. Dated market claims remain source notes, not current verified facts.</p>
+      </div>
+      <div class="source-list" data-source-list></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-site-footer></footer>
+  <script src="assets/story-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
