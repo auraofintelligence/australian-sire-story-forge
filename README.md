@@ -1,6 +1,6 @@
 # Australian Sire Story Forge
 
-A publisher-style planning desk and book coach saved on this laptop for an adult, travel-led universe mixing science fiction, romance, fantasy and hopeful near-future invention. It gives data, asks questions and places Luke's answers into patterns. It does not decide what happens in the fiction.
+An open planning desk and book coach for an adult, travel-led universe mixing science fiction, romance, fantasy and hopeful near-future invention. Free to use, free to fork, free to point at your own place and your own people. It gives data, asks questions and places Luke's answers into patterns. It does not decide what happens in the fiction.
 
 The app lets an author combine any number of story types, relationships, outside problems, story shapes and favourite ingredients from handwritten notes. It can plan novels, novellas, short stories, films, albums and interactive stories that follow, overlap, intersect, echo or hand consequences to one another.
 
@@ -18,11 +18,11 @@ Fantasy-facing material calls the system Aura O.Z., expanded as Aura Operating Z
 
 The wild possibility shelf also holds a network of subterranean, undersea, myth-inspired and wholly invented civilisations. Independent realms can send adult emissaries towards emerging leaders before technological change becomes unpredictable or civilisation faces a survival hurdle. These are fictional possibilities, not claims that distinct traditions share one origin. Each can be selected, combined, contradicted, rewritten or ignored.
 
-## Open it on this laptop
+## Open it
 
 Double-click the **Start Story Forge** desktop icon. You can also double-click `START STORY FORGE.cmd` inside this folder. The local preview starts quietly and opens in your browser.
 
-Your projects are stored in that browser on this laptop. Use **Download editable backup** from the app before clearing browser data or changing computers. Updating a chapter plan also keeps up to three recoverable earlier versions inside the project.
+Your projects are stored in your own browser. No account, no cloud, nobody else can see them. Use **Download editable backup** from the app before clearing browser data or changing computers. Updating a chapter plan also keeps up to three recoverable earlier versions inside the project.
 
 ## Publication boundary
 
@@ -30,7 +30,7 @@ This copy is static and is now published through GitHub Pages. Private working f
 
 Still outstanding:
 
-1. Replace `LICENCE-PLACEHOLDER.md` with the owner's chosen licence.
+1. Review `LICENCE.md` as the project grows.
 2. Review the distilled source library and acknowledgements, including every `NEEDS CHECKING` entry in `SOURCES.md`.
 3. Confirm the published build carries no private author notes.
 4. Test the live site anonymously on a phone.
