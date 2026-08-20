@@ -13,8 +13,6 @@ You may view, share, clone, study, reference and adapt this repo for personal, e
 
 You may use a personal AI assistant to help read, explain or adapt the repo for those allowed non-commercial uses.
 
-Plan your own stories with it. Fork it, gut it, point it at your own place and your own people. That is what it is for.
-
 If you use or adapt the work, give clear credit:
 
 Based on australian-sire-story-forge by Luke Nathan Hayes / Strange But True / Aura of Intelligence.
@@ -34,23 +32,9 @@ That means you may not:
 - remove attribution or present the work as your own;
 - use Strange But True, Aura of Intelligence, Luke Nathan Hayes, project names, screenshots, music, writing, images or brand material to imply endorsement, partnership or approval.
 
-## 3. Characters, Names And The Story Universe
+## 3. Named Original Work
 
-The following are original creative work of Luke Nathan Hayes and are reserved to him in full, including all commercial and adaptation rights:
-
-- **Tiggy Bestmann**
-- **Australian Sire**
-- **Luke Catalyst**
-- The four registers and the relationships between them, including the submissive register and its Dakini counterpart.
-- The Australian Sire story universe: its named characters, character seeds, factions, settings, systems, rituals and repeated ideas as gathered in this repository.
-- Aura O.Z. and Aura Operating Zeitgeist as story names.
-- The fictional Crystal City of Quandamooka Country as expressed in this universe, which is kept deliberately separate from any real-world proposal.
-
-You may read about them, discuss them, quote them with credit and be influenced by them.
-
-You may not write, publish, perform, film, record, sell, licence or commercially distribute stories, scripts, songs, games, adaptations, sequels, fan works offered for sale, or AI-generated works using these characters or this universe, without written permission from Luke Nathan Hayes.
-
-Building your own universe with your own characters using the method in this repo is encouraged and needs no permission. Using his is a different thing and needs a conversation.
+Tiggy Bestmann and Australian Sire are original creative work of Luke Nathan Hayes and are covered by this licence, including under section 2 above.
 
 ## 4. Commercial Rights
 
@@ -58,13 +42,9 @@ All commercial rights are reserved to Luke Nathan Hayes.
 
 Commercial use requires written permission from Luke Nathan Hayes. Permission can be granted, denied, limited, priced or handled under a separate agreement.
 
-Ask. He is easier to deal with than you might expect.
-
 ## 5. Your Own Outputs
 
-This app lets you create your own notes, story plans, character profiles, chapter maps, exports and backups. Those outputs belong to you.
-
-Your projects are stored in your own browser. They are not uploaded anywhere, there is no account, and nobody else can see them.
+If this repo lets you create your own notes, Markdown files, exports, maps, profiles, plans or other personal outputs, those outputs belong to you.
 
 You are responsible for what you put into the tool, what you export, and where you share it.
 
@@ -74,27 +54,13 @@ This licence only covers original material created by Luke Nathan Hayes / Strang
 
 Third-party libraries, fonts, APIs, platforms, services or embedded material keep their own licences.
 
-Worksheet formats credited in the source ledger to E. A. Deverell and other named creators are not covered by this licence and remain with their creators. The topographic atlas idea credited to Franklin 'Veaux' is likewise not covered. See `SOURCES.md`.
-
-## 7. Country And Cultural Material
-
-Quandamooka Country, First Nations names, language, knowledge, sites and governance are not Luke's to licence and are not licensed here.
-
-Entries in this repo that touch Country carry a cultural authority review gate. Those gates are part of the work, not decoration. Anyone building on this material is expected to seek appropriate authority rather than inherit permission from this file.
-
-## 8. No Harmful Or Misleading Use
+## 7. No Harmful Or Misleading Use
 
 You may not use this repo or its material for deceptive, exploitative, aggressive, hateful, harassing, unsafe or harmful purposes.
 
 You may not use it to mislead people about privacy, security, law, finance, health, public safety, governance, crypto, AI capability or current events.
 
-## 9. Adults Only
-
-This planner maps adult relationships and the reasons intimate encounters matter to a story. It is for adults.
-
-Every person in an intimate scene planned with this tool must be an adult, and the tool asks you to confirm it. Consent, present agreement and a genuine way out are part of the design rather than a disclaimer bolted on the end.
-
-## 10. No Warranty
+## 8. No Warranty
 
 This repo is provided as-is.
 
