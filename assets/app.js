@@ -1229,9 +1229,11 @@
           <div>
             <strong>Australian Sire Story Forge</strong>
             <p>Adult-only story planning. Explicit scenes intentionally unwritten.</p>
-            <p>Local development copy · Licence to be selected by the owner before publication.</p>
+            <p><a href="https://github.com/auraofintelligence/australian-sire-story-forge/blob/main/LICENCE.md">Strange But True Public Source Licence</a></p>
           </div>
           <nav class="footer-links" aria-label="Footer navigation">
+            <a href="https://auraofintelligence.github.io/australiansire/">Australian Sire</a>
+            <a href="https://auraofintelligence.github.io/tiggy-bestmann/">Tiggy Bestmann</a>
             <a href="forge.html">1 Story choices</a>
             <a href="characters.html">2 Characters</a>
             <a href="arc.html">3 Book plan</a>
